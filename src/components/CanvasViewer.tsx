@@ -32,10 +32,9 @@ interface CanvasViewerProps {
 }
 
 const SAMPLE_CASES = [
-  { id: 1, label: "Sample 1 (Tongue)", src: assetPath("/samples/ex1.jpg") },
-  { id: 2, label: "Sample 2 (Buccal)", src: assetPath("/samples/ex2.jpg") },
-  { id: 3, label: "Sample 3 (Erythroplakia)", src: assetPath("/samples/ex3.jpg") },
-  { id: 4, label: "Sample 4 (Palate)", src: assetPath("/samples/ex4.jpg") },
+  { id: 1, label: "Sample 1", src: assetPath("/samples/ex1.jpg") },
+  { id: 2, label: "Sample 2", src: assetPath("/samples/ex2.jpg") },
+  { id: 3, label: "Sample 3", src: assetPath("/samples/ex3.jpg") },
 ];
 
 export default function CanvasViewer({
